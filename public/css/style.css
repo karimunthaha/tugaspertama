@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #container {
+    height: 100vh;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+  }
+  
+  main {
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 20px;
+  }
+  
+  article {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  article .top ul li {
+    list-style: none;
+  }
+  
+  article .bottom {
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid #000;
+    background-color: #eee;
+  }
